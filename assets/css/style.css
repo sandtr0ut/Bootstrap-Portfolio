@@ -1,8 +1,26 @@
+html {
+  /* position: relative; */
+  /* min-height: 100vh; */
+}
+
+
 .myP123 {
   font-size: 1.25rem;
   margin-top: 1rem;
 }
 
 body {
-  background-image: url("../images/stripes_light.png")
+  background-image: url("../images/stripes_light.png");
+}
+
+#text-white {
+  height: 60px;
+}
+
+#content {
+  min-height: calc(100vh - 240px);
+}
+
+#myFooter {
+  height: 90px;
 }
